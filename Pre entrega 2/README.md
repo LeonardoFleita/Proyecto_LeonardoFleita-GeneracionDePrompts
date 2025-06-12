@@ -1,6 +1,6 @@
 # Asistente IA para Búsqueda Laboral Personalizada
 
-### Autor: Leonardo Javier Fleita
+### Leonardo Javier Fleita
 
 ### Curso: Inteligencia Artificial - Generación de Prompts
 
@@ -38,9 +38,9 @@ Se implementarán técnicas de **Fast Prompting** para mejorar la precisión y r
 
 ## 🔍 Justificación de la viabilidad del proyecto
 
-El proyecto es técnicamente viable, ya que los prompts propuestos han sido probados con ChatGPT y generan resultados útiles sin requerir conocimientos de programación. El desarrollo del proyecto puede organizarse en etapas, centrándose en la calidad de los prompts y en su adaptación a distintos perfiles laborales del ámbito digital.
+El proyecto es técnicamente viable, ya que los prompts propuestos han sido probados con herramientas gratuitas como **Gemini** (Google AI), que permiten generar resultados útiles sin necesidad de conocimientos de programación avanzados ni costos de uso.
 
-La disponibilidad de herramientas accesibles como Jupyter Notebook y la API de OpenAI, así como el alcance limitado al uso de generación de texto e imagen, lo vuelven realizable dentro del plazo del curso y con los recursos actuales.
+El desarrollo puede organizarse en etapas, centrándose en la calidad de los prompts y en su adaptación a distintos perfiles laborales del ámbito digital. Se trabajará con una cantidad controlada de consultas para asegurar la viabilidad económica del proyecto, aprovechando el acceso gratuito que ofrece la API de Gemini.
 
 ---
 
@@ -68,16 +68,16 @@ El proyecto se divide en etapas:
 
 ## 🛠️ Herramientas y tecnologías
 
-- **Python**
+- **Python 3.11**
 - **Jupyter Notebook**
-- **OpenAI API (ChatGPT y DALL·E)**
+- **Gemini API (Google AI, modelo gemini-pro)**
 - **Fast Prompting**
-- **Git y GitHub**
+- Git y GitHub
 
 ---
 
 ## 🚀 Implementación
 
-La implementación se desarrollará en un archivo `poc_prompts.ipynb` donde se mostrarán ejemplos funcionales de los prompts propuestos, junto con los resultados obtenidos. Se documentarán también los ajustes hechos a los prompts para mejorar su rendimiento.
+La implementación se desarrollará en un archivo `poc_prompts.ipynb` donde se mostrarán ejemplos funcionales de los prompts propuestos, junto con los resultados obtenidos. Se documentarán también los ajustes hechos a los prompts para mejorar su rendimiento utilizando Gemini.
 
-Se trabajará con una cantidad controlada de consultas a la API para asegurar la viabilidad económica del proyecto. Se priorizará el enfoque modular y reutilizable para facilitar futuras ampliaciones.
+Se priorizará un enfoque modular y reutilizable para facilitar futuras ampliaciones y adaptaciones del proyecto.
