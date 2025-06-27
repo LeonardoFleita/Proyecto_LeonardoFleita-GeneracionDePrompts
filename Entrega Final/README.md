@@ -18,7 +18,7 @@ Este proyecto propone una solución asistida por inteligencia artificial para ac
 - Simulación de entrevistas laborales.
 - Creación de banners visuales para perfiles profesionales (LinkedIn, GitHub).
 
-Se utilizan modelos de texto a texto y texto a imagen con **Gemini**, aplicando distintas técnicas de prompting como **zero-shot, one-shot, few-shot** e **iteración** según el contexto y el tipo de contenido a generar. Todo el proyecto está implementado en una Jupyter Notebook, que permite combinar código, texto e imágenes en una interfaz interactiva, sin depender de herramientas de pago.
+Se utilizan modelos de texto a texto con **Gemini** y texto a imagen con **OpenAI**, aplicando distintas técnicas de prompting como **zero-shot, one-shot, few-shot** e **iteración** según el contexto y el tipo de contenido a generar. Todo el proyecto está implementado en una Jupyter Notebook, que permite combinar código, texto e imágenes en una interfaz interactiva, sin depender de herramientas de pago.
 
 ---
 
@@ -51,7 +51,7 @@ Se implementarán técnicas de **Fast Prompting** para mejorar la precisión y r
 Cada módulo aplica técnicas de Fast Prompting específicas:
 
 - **Zero-shot** en tareas simples o comunes.
-- **One-shot/Few-shot** donde el estilo debe ser imitado (ej: respuestas de entrevista, descripción de perfil).
+- **One-shot/Few-shot** donde el estilo debe ser imitado (ej: respuestas de entrevista).
 - **Iteración** cuando el primer resultado necesita refinarse por longitud, tono o formato.
 
 ---
@@ -59,6 +59,8 @@ Cada módulo aplica técnicas de Fast Prompting específicas:
 ## 🔍 Justificación de la viabilidad del proyecto
 
 El proyecto es técnicamente viable, ya que los prompts propuestos han sido probados con herramientas gratuitas como **Gemini** (Google AI), que permiten generar resultados útiles sin necesidad de conocimientos de programación avanzados ni costos de uso.
+
+Para la generación de imágenes, se utilizó la API de OpenAI. Aunque esta parte puede implicar ciertos costos, el uso controlado y puntual de la generación de imágenes mantiene la viabilidad económica general del proyecto.
 
 El desarrollo puede organizarse en etapas, centrándose en la calidad de los prompts y en su adaptación a distintos perfiles laborales del ámbito digital. Se trabajará con una cantidad controlada de consultas para asegurar la viabilidad económica del proyecto, aprovechando el acceso gratuito que ofrece la API de Gemini.
 
@@ -89,6 +91,7 @@ El proyecto se divide en etapas:
 - **Python**
 - **Jupyter Notebook**
 - **Gemini API (Google AI, modelo gemini-pro)**
+- **OpenAI API** para generación de imágenes
 - **Fast Prompting**
 - **Git y GitHub**
 - **Técnicas de Prompting**:
@@ -119,6 +122,7 @@ Se priorizará un enfoque modular y reutilizable para facilitar futuras ampliaci
 ## ✅ Conclusiones
 
 - Los objetivos planteados fueron alcanzados con éxito.
-- El uso de Gemini resultó práctico, gratuito y efectivo para generar tanto texto como imágenes.
+- El uso de Gemini resultó práctico, gratuito y efectivo para generar contenido de texto de alta calidad.
 - La aplicación de distintas técnicas de prompting según el tipo de tarea fue clave para optimizar los resultados.
 - La solución es viable para ser usada en contextos reales de búsqueda laboral con mínima intervención técnica del usuario.
+- La calidad de las imágenes generadas, utilizando la API de OpenAI, no cumplió completamente con las expectativas, lo que indica la necesidad de explorar opciones adicionales para obtener resultados visuales más satisfactorios.
